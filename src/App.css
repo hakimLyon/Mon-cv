@@ -1,0 +1,422 @@
+#root{
+  background:#282c34 ;
+  
+ 
+}
+.App {
+   background:#282c34 ;
+  justify-content: center;
+  flex-direction: row;
+  display: inline-flex ;
+  color: #fff;
+}
+#profile{
+  margin-left: 8px;
+
+}
+#nom{
+  margin-right: 10px;
+  
+}
+#profession{
+  margin-top: auto;
+  text-align: center;
+ 
+  
+}
+  
+.photo{
+  /*height: 35vmin;
+  width: 25vmin;
+  margin-right:22px;
+  margin-left:20px;
+  */
+  
+  pointer-events: none;
+  border-radius: 73px;
+  border: transparent;
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes coloru{
+  0%{
+    background:rgba(0, 0, 255, 0.555);
+  }
+  25%{
+    background: rgba(255, 102, 0, 0.692);
+  }
+  50%{
+    background: rgba(128, 0, 128, 0.432);
+  }
+  75%{
+    background: rgba(0, 128, 0, 0.623);
+  }
+  100%{
+    background: rgba(165, 42, 42, 0.932);
+  }
+}
+.ui.ribbon.label{
+     animation-name:coloru;
+  animation-duration: 6s;
+ animation-play-state: running;
+ 
+}
+.App-header {
+ 
+  /*background-color: #282c34;
+  
+  align-items:flex-start ;
+  justify-content: space-between;
+  
+  */
+  
+  text-align: center;
+  max-width:min-content;
+  /*display:block;
+  align-items:flex-start ;*/
+  background:brown ;
+  font-size: calc(11px + 1vmin);
+  color: white;
+  flex-direction: row;
+  animation-name:coloru;
+  animation-duration: 6s;
+ animation-play-state: running;
+ 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#ContentObjectif{
+ margin-left:10px;
+ margin-right:22px;
+ 
+}
+.App-content{
+  color: white;
+   max-width: auto;
+   background-color:#282c34  ;
+   
+   
+  
+  
+  
+}
+.titrecv{
+  text-align: center;
+  
+  
+}
+
+/*----------------------- Ordinateur ----------------- */
+@media  screen and (min-width:665px) {
+  
+  #pages{
+    position: fixed;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+  .img1{
+    animation: move1 infinite 2s linear;
+  }
+  .img {
+    animation: move infinite 7s linear;
+  }
+}
+
+ @keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+        }
+ .img{
+  height: 253px;
+  width: 240px;
+  position: relative;
+  pointer-events: none;
+
+ }
+ 
+ @keyframes move1 {
+            from {
+                
+                transform:rotate(0deg) ;
+
+            }
+
+            to {
+                
+                transform:rotate(360deg) ;
+            }
+
+
+        }
+ .img1{
+ align-items:flex-start;
+ left: 1em;
+  height: 100px;
+  width: 90px;
+  position: absolute;
+  animation-name: move1;
+  pointer-events: none;
+  
+  
+ }
+ .colorBtn{
+  margin-top:60px;
+}
+#blue{
+  margin-right:12px;
+}
+#noire{
+  margin-right:23px;
+  margin-top: 12px;
+}
+#marron{
+   margin-top: 12px;
+}
+
+}
+/*------------------- End Ordinateur ----------------- */
+
+/*------------------- Telephone -----------------------*/
+
+@media  screen and (max-width:665px){
+
+ @media (prefers-reduced-motion: no-preference) {
+  .img1{
+    animation: move1 infinite 20s linear;
+  }
+  .img {
+    animation: move infinite 2s linear;
+  }
+}
+  @keyframes move {
+      from {
+                
+        transform:rotate(0deg) ;
+
+    }
+
+    to {
+        
+        transform:rotate(360deg) ;
+    }
+        }
+
+ .img{
+   margin-top:20px;
+   height: 160px;
+   width: 100px;
+   position: relative;
+   
+  
+ }
+
+
+  @keyframes move1 {
+            from {
+                
+                transform:rotate(0deg) ;
+
+            }
+
+            to {
+                
+                transform:rotate(360deg) ;
+            }
+
+
+        }
+ .img1{
+ 
+  top: 6.2em;
+  right: 2em;
+  height: 50px;
+  width: 90px;
+  position: absolute;
+  animation-name: move1;
+  animation-duration: 1s;
+ }
+
+
+ #profession{
+   margin-top: 80px;
+ }
+ .colorBtn{
+  margin-top:13px;
+}
+#blue{
+  margin-right:73px;
+  
+}
+#noire{
+  margin-right:67px;
+  margin-top: 12px;
+}
+#orange{
+  margin-right:53px;
+  margin-top: 12px;
+}
+#verte{
+  margin-right:73px;
+  margin-top: 12px;
+}
+#marron{
+  margin-right:60px;
+  margin-top: 12px;
+}
+
+}
+/*------------------- End Telephone--------------------*/
+
+@keyframes page {
+  from{
+    opacity: 0;
+    
+  }
+  
+  to{
+    opacity: 1;
+   
+  }
+}
+
+.ContenuPage{
+  display: none;
+  line-height:auto;
+  min-width: auto;
+  min-height:auto;
+  max-width:auto;
+  max-height:auto;
+  animation-name:page;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-play-state:paused;
+}
+.y{
+  
+  padding-top: 169px;
+}
+
+.home{
+  position: relative;
+  background:linear-gradient(to right bottom, rgba(0, 0, 255, 0.555),rgba(255, 255, 255, 0.329), rgba(216, 2, 2, 0.452));
+}
+
+
+
+.imagesPhoto{
+  background-color: black;
+}
+
+.container{
+  min-height:auto;
+  min-width:auto;
+}
+#nofixed{
+  position:relative;
+}
+.curriculumVitae{
+  display: none;
+}
+
+@keyframes page1{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+.accueil{
+ 
+  animation-name:page1;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.changeInput{
+  display: none;
+  align-items: center;
+  
+}
+.titre{
+  margin-bottom:0px;
+  display: none;
+}
+#annuler-btn{
+  display: none;
+}
+#prenom,#input-profession{
+  margin-left:10px;
+}
+@keyframes h3{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+.h3{
+  opacity:0;
+  animation-name: h3;
+  animation-duration: 5s;
+  animation-delay:2s;
+  animation-fill-mode: forwards;
+}
+@keyframes h4{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+.h4{
+  opacity:0;
+  animation-name: h4;
+  animation-duration: 5s;
+  animation-delay:5s;
+  animation-fill-mode: forwards;
+}
+@keyframes h4{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+.h5{
+  opacity:0;
+  animation-name: h4;
+  animation-duration: 5s;
+  animation-delay:10s;
+  animation-fill-mode: forwards;
+}
