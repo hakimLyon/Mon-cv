@@ -24,8 +24,9 @@ class Images extends React.Component{
          document.querySelectorAll('.titre').forEach(titr=>{
             titr.style.display = 'none';
         });
-        document.querySelector('#modifier-btn').style.display ='block';
+        
         document.querySelector('#annuler-btn').style.display ='none';
+        document.querySelector('#modifier-btn').style.display ='block';
   }
 
     render(){
@@ -39,13 +40,17 @@ class Images extends React.Component{
               <h5 className="h5">Cliquez sur le Boutton Modifier pour commencez a creer Votre propre cv ,
                   modifier la couleur du theme de votre choix puis imprimer le Cv creer.
               </h5>
-              <div className="h5" id="modifier-btn">
-                  <button className="ui buttom" onClick={this.ShowBtn}>Modifier</button>
+              <div className="h5" >
+                 <center> <button id="modifier-btn" className="ui buttom" onClick={this.ShowBtn}>Modifier</button>
+                 </center>
               </div>
                
-               <div id="annuler-btn">
-                    <button className="ui buttom" onClick={this.CancelBtn}>Annuler</button>
+               <div >
+               <center>  <button id="annuler-btn" className="ui buttom" onClick={this.CancelBtn}>Annuler</button>
+               </center>
                </div>
+                <br/> 
+             
               
           </span>
         </div>
@@ -89,7 +94,7 @@ class Accueil extends React.Component{
                />
            </div>
            <div>
-              
+            
            </div>
          </div>
        )

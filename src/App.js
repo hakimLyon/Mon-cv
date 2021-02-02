@@ -1,35 +1,42 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
-//import logo from './logo.svg';
+
+
 import './App.css';
 import './Semantic/components/button.css';
 import './Semantic/components/header.css';
 import'./Semantic/components/image.css';
 import './Semantic/components/container.min.css';
 import './Semantic/components/menu.min.css';
-import Objectif from './components/Objectif';
-import Page from './components/Page';
 
+import NavBar from './components/NavBar';
 
-
-
+import Footer from './components/Footer';
+import { Route, Switch } from 'react-router-dom';
+import Accueil from './components/pages';
+import Experience from './components/pages/Experience';
+import Competences from './components/pages/Competences';
+import Diplomes from './components/pages/Diplomes'
+import Certificat from './components/pages/Certificat'
+import Down from './components/pages/Down'
 class App extends React.Component {
+
 
   render() {
    
     return(
-      <div className="App">
-        <div className="App-header">
-          <header className="head">
-            <Objectif
-            objectif={this.props.objectifChange}
-            />
-          </header>
-        </div>
-        <div className="App-content">
-          <Page />
-        </div>
-     </div>
+      <>
+        <NavBar/>
+        <Switch>
+          <Route path="/" exact component={Accueil}></Route>
+          <Route path="/experiences" component={Experience}></Route>
+          <Route path="/diplomes" component={Diplomes}></Route>
+          <Route path="/competences" component={Competences}></Route>
+          <Route path="/certifications-et-cours" component={Certificat}></Route>
+          <Route path="/imprimer" component={Down}></Route>
+        </Switch>
+        <Footer/>
+     </>
     )
   }
 }

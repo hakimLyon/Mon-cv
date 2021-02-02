@@ -237,16 +237,17 @@ img.ui.bordered.image {
 .ui.small.images svg,
 .ui.small.image {
   width: 150px;
-  height: auto;
+  height:auto;
   font-size: 0.92857143rem;
 }
 .ui.medium.images .image,
 .ui.medium.images img,
 .ui.medium.images svg,
 .ui.medium.image {
-  width: 300px;
+  width: 200px;
   height: auto;
   font-size: 1rem;
+  
 }
 .ui.large.images .image,
 .ui.large.images img,

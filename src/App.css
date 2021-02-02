@@ -1,14 +1,21 @@
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  
+}
 #root{
-  background:#282c34 ;
+ 
   
  
 }
 .App {
-   background:#282c34 ;
-  justify-content: center;
-  flex-direction: row;
-  display: inline-flex ;
-  color: #fff;
+   justify-content: center;
+   align-items: center;
+  
+  
 }
 #profile{
   margin-left: 8px;
@@ -65,7 +72,7 @@
     background: rgba(165, 42, 42, 0.932);
   }
 }
-.ui.ribbon.label{
+.ui.menu{
      animation-name:coloru;
   animation-duration: 6s;
  animation-play-state: running;
@@ -79,18 +86,31 @@
   justify-content: space-between;
   
   */
+  margin-bottom:12px;
+  margin-top: 12px;
+   border:1px solid white;
+   border-radius: 10px ;
+   display:inline-block;
+  top: 0;
+  left: -100%;
+  transition:850ms;
+   align-items:center ;
+  justify-content: center;
   
-  text-align: center;
-  max-width:min-content;
+  width: 250px;
+  height:auto;
+  font-size: calc(11px + 1vmin);
+  
   /*display:block;
   align-items:flex-start ;*/
   background:brown ;
-  font-size: calc(11px + 1vmin);
+
   color: white;
-  flex-direction: row;
+  /*flex-direction: row;
+  */
   animation-name:coloru;
   animation-duration: 6s;
- animation-play-state: running;
+  animation-play-state: running;
  
 }
 
@@ -109,6 +129,7 @@
 #ContentObjectif{
  margin-left:10px;
  margin-right:22px;
+ color:white;
  
 }
 .App-content{
@@ -132,6 +153,7 @@
   
   #pages{
     position: fixed;
+    color: white;
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -185,9 +207,7 @@
   
   
  }
- .colorBtn{
-  margin-top:60px;
-}
+
 #blue{
   margin-right:12px;
 }
@@ -272,6 +292,7 @@
 #blue{
   margin-right:73px;
   
+  
 }
 #noire{
   margin-right:67px;
@@ -288,6 +309,9 @@
 #marron{
   margin-right:60px;
   margin-top: 12px;
+}
+#sidebarmobile{
+   margin-top: 43px;
 }
 
 }
@@ -339,6 +363,8 @@
 }
 #nofixed{
   position:relative;
+ 
+  
 }
 .curriculumVitae{
   display: none;
@@ -354,7 +380,9 @@
 }
 
 .accueil{
- 
+  margin-left:1% ;
+  margin-right:24%;
+  display: flex;
   animation-name:page1;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -363,7 +391,7 @@
 .changeInput{
   display: none;
   align-items: center;
-  
+  justify-content: center;
 }
 .titre{
   margin-bottom:0px;
@@ -373,7 +401,7 @@
   display: none;
 }
 #prenom,#input-profession{
-  margin-left:10px;
+  margin-left:23px;
 }
 @keyframes h3{
   from{
@@ -419,4 +447,24 @@
   animation-duration: 5s;
   animation-delay:10s;
   animation-fill-mode: forwards;
+}
+
+#pageMobile{
+  
+  background-color:#282c34;
+  min-width: auto;
+  
+  
+  
+  
+}
+
+#contentM{
+  display:inline-block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  flex-direction: row;
+  
+  
 }

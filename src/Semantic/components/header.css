@@ -21,9 +21,9 @@
   padding: 0em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  line-height:1.48571429em;
+  line-height:1.00571429em;
   text-transform: none;
-  color: rgba(241, 231, 231, 0.87);
+  color: rgba(241, 231, 231, 0.952);
 }
 .ui.header:first-child {
   margin-top: -0.14285714em;
