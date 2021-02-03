@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6039be72.chunk.css",
-    "main.js": "/static/js/main.c3f80f14.chunk.js",
-    "main.js.map": "/static/js/main.c3f80f14.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a364cf6e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a364cf6e.js.map",
-    "static/js/2.34ec77ca.chunk.js": "/static/js/2.34ec77ca.chunk.js",
-    "static/js/2.34ec77ca.chunk.js.map": "/static/js/2.34ec77ca.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.59f799f79d02b0a1cc2847fe2042bc95.js": "/precache-manifest.59f799f79d02b0a1cc2847fe2042bc95.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6039be72.chunk.css.map": "/static/css/main.6039be72.chunk.css.map",
-    "static/js/2.34ec77ca.chunk.js.LICENSE.txt": "/static/js/2.34ec77ca.chunk.js.LICENSE.txt",
-    "static/media/logo1.svg": "/static/media/logo1.1ed29ac5.svg",
-    "static/media/logo2.svg": "/static/media/logo2.23982a99.svg",
-    "static/media/profile.jpg": "/static/media/profile.b2e4ca31.jpg"
+    "main.css": "/hakimLyon/Mon-cv/issues/static/css/main.3acad2ca.chunk.css",
+    "main.js": "/hakimLyon/Mon-cv/issues/static/js/main.39d53089.chunk.js",
+    "main.js.map": "/hakimLyon/Mon-cv/issues/static/js/main.39d53089.chunk.js.map",
+    "runtime-main.js": "/hakimLyon/Mon-cv/issues/static/js/runtime-main.81df428e.js",
+    "runtime-main.js.map": "/hakimLyon/Mon-cv/issues/static/js/runtime-main.81df428e.js.map",
+    "static/js/2.6fde3b03.chunk.js": "/hakimLyon/Mon-cv/issues/static/js/2.6fde3b03.chunk.js",
+    "static/js/2.6fde3b03.chunk.js.map": "/hakimLyon/Mon-cv/issues/static/js/2.6fde3b03.chunk.js.map",
+    "index.html": "/hakimLyon/Mon-cv/issues/index.html",
+    "static/css/main.3acad2ca.chunk.css.map": "/hakimLyon/Mon-cv/issues/static/css/main.3acad2ca.chunk.css.map",
+    "static/js/2.6fde3b03.chunk.js.LICENSE.txt": "/hakimLyon/Mon-cv/issues/static/js/2.6fde3b03.chunk.js.LICENSE.txt",
+    "static/media/20201101_125735.6366dd59.jpg": "/hakimLyon/Mon-cv/issues/static/media/20201101_125735.6366dd59.jpg",
+    "static/media/20201101_130040.5ea9e974.jpg": "/hakimLyon/Mon-cv/issues/static/media/20201101_130040.5ea9e974.jpg",
+    "static/media/profile.1e890e4e.jpg": "/hakimLyon/Mon-cv/issues/static/media/profile.1e890e4e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a364cf6e.js",
-    "static/js/2.34ec77ca.chunk.js",
-    "static/css/main.6039be72.chunk.css",
-    "static/js/main.c3f80f14.chunk.js"
+    "static/js/runtime-main.81df428e.js",
+    "static/js/2.6fde3b03.chunk.js",
+    "static/css/main.3acad2ca.chunk.css",
+    "static/js/main.39d53089.chunk.js"
   ]
 }
