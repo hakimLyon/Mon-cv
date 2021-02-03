@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hakimLyon/Mon-cv/issues/static/css/main.3acad2ca.chunk.css",
-    "main.js": "/hakimLyon/Mon-cv/issues/static/js/main.39d53089.chunk.js",
-    "main.js.map": "/hakimLyon/Mon-cv/issues/static/js/main.39d53089.chunk.js.map",
-    "runtime-main.js": "/hakimLyon/Mon-cv/issues/static/js/runtime-main.81df428e.js",
-    "runtime-main.js.map": "/hakimLyon/Mon-cv/issues/static/js/runtime-main.81df428e.js.map",
-    "static/js/2.6fde3b03.chunk.js": "/hakimLyon/Mon-cv/issues/static/js/2.6fde3b03.chunk.js",
-    "static/js/2.6fde3b03.chunk.js.map": "/hakimLyon/Mon-cv/issues/static/js/2.6fde3b03.chunk.js.map",
-    "index.html": "/hakimLyon/Mon-cv/issues/index.html",
-    "static/css/main.3acad2ca.chunk.css.map": "/hakimLyon/Mon-cv/issues/static/css/main.3acad2ca.chunk.css.map",
-    "static/js/2.6fde3b03.chunk.js.LICENSE.txt": "/hakimLyon/Mon-cv/issues/static/js/2.6fde3b03.chunk.js.LICENSE.txt",
-    "static/media/20201101_125735.6366dd59.jpg": "/hakimLyon/Mon-cv/issues/static/media/20201101_125735.6366dd59.jpg",
-    "static/media/20201101_130040.5ea9e974.jpg": "/hakimLyon/Mon-cv/issues/static/media/20201101_130040.5ea9e974.jpg",
-    "static/media/profile.1e890e4e.jpg": "/hakimLyon/Mon-cv/issues/static/media/profile.1e890e4e.jpg"
+    "main.css": "/hakimLyon/Mon-cv/static/css/main.3acad2ca.chunk.css",
+    "main.js": "/hakimLyon/Mon-cv/static/js/main.cea9e1f7.chunk.js",
+    "main.js.map": "/hakimLyon/Mon-cv/static/js/main.cea9e1f7.chunk.js.map",
+    "runtime-main.js": "/hakimLyon/Mon-cv/static/js/runtime-main.060083ca.js",
+    "runtime-main.js.map": "/hakimLyon/Mon-cv/static/js/runtime-main.060083ca.js.map",
+    "static/js/2.6fde3b03.chunk.js": "/hakimLyon/Mon-cv/static/js/2.6fde3b03.chunk.js",
+    "static/js/2.6fde3b03.chunk.js.map": "/hakimLyon/Mon-cv/static/js/2.6fde3b03.chunk.js.map",
+    "index.html": "/hakimLyon/Mon-cv/index.html",
+    "static/css/main.3acad2ca.chunk.css.map": "/hakimLyon/Mon-cv/static/css/main.3acad2ca.chunk.css.map",
+    "static/js/2.6fde3b03.chunk.js.LICENSE.txt": "/hakimLyon/Mon-cv/static/js/2.6fde3b03.chunk.js.LICENSE.txt",
+    "static/media/20201101_125735.6366dd59.jpg": "/hakimLyon/Mon-cv/static/media/20201101_125735.6366dd59.jpg",
+    "static/media/20201101_130040.5ea9e974.jpg": "/hakimLyon/Mon-cv/static/media/20201101_130040.5ea9e974.jpg",
+    "static/media/profile.1e890e4e.jpg": "/hakimLyon/Mon-cv/static/media/profile.1e890e4e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.81df428e.js",
+    "static/js/runtime-main.060083ca.js",
     "static/js/2.6fde3b03.chunk.js",
     "static/css/main.3acad2ca.chunk.css",
-    "static/js/main.39d53089.chunk.js"
+    "static/js/main.cea9e1f7.chunk.js"
   ]
 }
