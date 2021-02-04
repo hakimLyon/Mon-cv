@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/hakimLyon/Mon-cv/static/css/main.7eeae005.chunk.css",
-    "main.js": "/hakimLyon/Mon-cv/static/js/main.8088de84.chunk.js",
-    "main.js.map": "/hakimLyon/Mon-cv/static/js/main.8088de84.chunk.js.map",
-    "runtime-main.js": "/hakimLyon/Mon-cv/static/js/runtime-main.786d01f4.js",
-    "runtime-main.js.map": "/hakimLyon/Mon-cv/static/js/runtime-main.786d01f4.js.map",
-    "static/js/2.3f8948cd.chunk.js": "/hakimLyon/Mon-cv/static/js/2.3f8948cd.chunk.js",
-    "static/js/2.3f8948cd.chunk.js.map": "/hakimLyon/Mon-cv/static/js/2.3f8948cd.chunk.js.map",
-    "static/js/3.220a5f2e.chunk.js": "/hakimLyon/Mon-cv/static/js/3.220a5f2e.chunk.js",
-    "static/js/3.220a5f2e.chunk.js.map": "/hakimLyon/Mon-cv/static/js/3.220a5f2e.chunk.js.map",
-    "index.html": "/hakimLyon/Mon-cv/index.html",
-    "static/css/main.7eeae005.chunk.css.map": "/hakimLyon/Mon-cv/static/css/main.7eeae005.chunk.css.map",
-    "static/js/2.3f8948cd.chunk.js.LICENSE.txt": "/hakimLyon/Mon-cv/static/js/2.3f8948cd.chunk.js.LICENSE.txt",
-    "static/media/20201101_125735.6366dd59.jpg": "/hakimLyon/Mon-cv/static/media/20201101_125735.6366dd59.jpg",
-    "static/media/20201101_130040.5ea9e974.jpg": "/hakimLyon/Mon-cv/static/media/20201101_130040.5ea9e974.jpg"
+    "main.css": "/static/css/main.51b3a1dd.chunk.css",
+    "main.js": "/static/js/main.aab64cb8.chunk.js",
+    "main.js.map": "/static/js/main.aab64cb8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a867964.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a867964.js.map",
+    "static/js/2.de305700.chunk.js": "/static/js/2.de305700.chunk.js",
+    "static/js/2.de305700.chunk.js.map": "/static/js/2.de305700.chunk.js.map",
+    "static/js/3.475d1ab8.chunk.js": "/static/js/3.475d1ab8.chunk.js",
+    "static/js/3.475d1ab8.chunk.js.map": "/static/js/3.475d1ab8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.51b3a1dd.chunk.css.map": "/static/css/main.51b3a1dd.chunk.css.map",
+    "static/js/2.de305700.chunk.js.LICENSE.txt": "/static/js/2.de305700.chunk.js.LICENSE.txt",
+    "static/media/20201101_125735.6366dd59.jpg": "/static/media/20201101_125735.6366dd59.jpg",
+    "static/media/20201101_130040.5ea9e974.jpg": "/static/media/20201101_130040.5ea9e974.jpg",
+    "static/media/profile.1e890e4e.jpg": "/static/media/profile.1e890e4e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.786d01f4.js",
-    "static/js/2.3f8948cd.chunk.js",
-    "static/css/main.7eeae005.chunk.css",
-    "static/js/main.8088de84.chunk.js"
+    "static/js/runtime-main.7a867964.js",
+    "static/js/2.de305700.chunk.js",
+    "static/css/main.51b3a1dd.chunk.css",
+    "static/js/main.aab64cb8.chunk.js"
   ]
 }
