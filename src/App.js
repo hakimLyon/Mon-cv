@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 
 import './App.css';
@@ -18,15 +18,35 @@ import Experience from './components/pages/Experience';
 import Competences from './components/pages/Competences';
 import Diplomes from './components/pages/Diplomes'
 import Certificat from './components/pages/Certificat'
-import Down from './components/pages/Down'
-class App extends React.Component {
+import Dropdown from './components/Dropdown';
+import Down from './components/pages/Down';
 
 
-  render() {
+function App() {
    
+    const [IsOpen, setIsOpen ] = useState(false);
+
+    const toggle = ()=>{
+      setIsOpen(!IsOpen)
+    }
+
+    useEffect(() => {
+      const hideMenu =()=>{
+        if(window.innerWidth > 768 && IsOpen){
+          setIsOpen(false)
+          
+        }
+      }
+      window.addEventListener('resize', hideMenu)
+      return()=> {
+        window.removeEventListener('resize', hideMenu)
+      }
+    })
+    
     return(
       <>
-        <NavBar/>
+        <NavBar toggle={toggle}/>
+        <Dropdown IsOpen={IsOpen} toggle={toggle}/>
         <Switch>
           <Route path="/" exact component={Accueil}></Route>
           <Route path="/experiences" component={Experience}></Route>
@@ -39,6 +59,6 @@ class App extends React.Component {
      </>
     )
   }
-}
+
 
 export default App;

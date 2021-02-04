@@ -1,18 +1,15 @@
 import React from 'react'
-import { Link  } from 'react-router-dom' 
-import * as FaIcons from 'react-icons/fa'
-const NavBar =({toggle})=>{
- return (
-    <nav className="flex justify-between items-center h-16 w-auto bg-white text-black relative shadow-sm font-lato" role="navigation"> 
-        <Link to="/" className="pl-8 flex items-center uppercase font-black">Mon Cv<FaIcons.FaUserGraduate className="ml-3"/></Link>
-        <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
-            <FaIcons.FaBars/>
-        </div>
-        <div className="pr-8  md:block hidden">
+import { Link } from 'react-router-dom'
+
+const Dropdown = ({IsOpen, toggle}) => {
+    return (
+        <div className={IsOpen ? 'transform  duration-300 ease-in-out grid grid-rows-4 text-center items-center bg-yellow-500': "hidden"}
+          onClick={toggle}
+        >
             <Link className="p-4 " to="/">
                 Accueil
                 </Link>
-            <Link className="p-4 transition-all duration-200 ease-linear hover:bg-yellow-300 opacity-70 rounded-md  focus:ring-2 " to="/experiences" >
+            <Link className="p-4 transition-all duration-200 ease-linear hover:bg-yellow-300 opacity-70 rounded-md  focus:ring-2 " to="/experiences">
                 Experiences
                 </Link>
             <Link className="p-4 hover:bg-green-400 transition duration-200 ease-linear opacity-70 focus-within:ring-2 rounded-md  " to="/diplomes">
@@ -25,8 +22,7 @@ const NavBar =({toggle})=>{
                 Certificats & Cours
                 </Link>
         </div>
-    </nav>
     )
 }
 
-export default  NavBar;
+export default Dropdown
